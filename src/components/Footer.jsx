@@ -20,10 +20,10 @@ export const Footer = () => {
           <div className="footer-links">
             <h2>SECTION</h2>
             <ul>
-              <li><Link to="/Home" style={{ textDecoration: 'none', color: 'black' }}>HOME</Link></li>
-              <li><Link to="/ABOUT" style={{ textDecoration: 'none', color: 'black' }}>ABOUT</Link></li>
-              <li><Link to="/Policypage" style={{ textDecoration: 'none', color: 'black' }}>DELIVERY</Link></li>
-              <li><Link to="/Policypage" style={{ textDecoration: 'none', color: 'black' }}>PRIVACY POLICY</Link></li>
+              <li><Link to="/Home" style={{ textDecoration: 'none', color: 'white' }}>HOME</Link></li>
+              <li><Link to="/ABOUT" style={{ textDecoration: 'none', color: 'white' }}>ABOUT</Link></li>
+              <li><Link to="/Policypage" style={{ textDecoration: 'none', color: 'white' }}>DELIVERY</Link></li>
+              <li><Link to="/Policypage" style={{ textDecoration: 'none', color: 'white' }}>PRIVACY POLICY</Link></li>
             </ul>
           </div>
 

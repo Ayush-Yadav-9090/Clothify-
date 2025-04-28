@@ -33,3 +33,10 @@
 .login-container button:hover {
   background-color: #45a049;
 }
+@media (max-width: 375px) {
+  .login-container h2{
+    padding-left: 85px;
+  }
+  
+  
+}
