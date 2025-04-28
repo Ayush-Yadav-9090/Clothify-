@@ -1,0 +1,134 @@
+/* condtion.css */
+
+.condition {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+    padding: 40px 20px;
+    background-color: #f2f2f2;
+  }
+  
+  .days, .months,.privacy {
+    background-color: #ffffff;
+    padding: 20px;
+    text-align: center;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+    width: 300px;
+    transition: transform 0.3s ease;
+  }
+  
+  .days:hover, .months:hover,.privacy:hover {
+    transform: translateY(-5px);
+  }
+  
+  .days img, .months img ,.privacy img{
+    object-fit: contain;
+    margin-bottom: 15px;
+  }
+  
+  .days h2, .months h2 ,.privacy h2{
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #222;
+  }
+  
+  .days p, .months p ,.privacy p{
+    color: #555;
+    font-size: 14px;
+  }
+  
+  /* Subscribe Section */
+  .subscribe {
+    background-color: #2222228b;
+    color: #fff;
+    text-align: center;
+    padding: 40px 20px;
+    margin-top: 30px;
+  }
+  
+  .subscribe h1 {
+    font-size: 28px;
+    margin-bottom: 10px;
+  }
+  
+  .subscribe p {
+    margin-bottom: 20px;
+    color: #ddd;
+  }
+  
+  .subscribe input[type="email"] {
+    padding: 12px 20px;
+    border: none;
+    border-radius: 8px 0 0 8px;
+    outline: none;
+    width: 250px;
+    max-width: 90%;
+  }
+  
+  .subscribe button {
+    padding: 12px 20px;
+    background-color: #ff6a00;
+    border: none;
+    border-radius: 0 8px 8px 0;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .subscribe button:hover {
+    background-color: #e05d00;
+  }
+  .condition img{
+    background-color: #dfd8d8a5;
+  }
+  
+  /* Marquee Section */
+  marquee h3 {
+    color: #444;
+    padding: 15px;
+    font-size: 18px;
+    font-weight: 500;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .condition {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .subscribe h1 {
+      font-size: 24px;
+    }
+  
+    .subscribe input[type="email"] {
+      width: 200px;
+    }
+  
+    .subscribe button {
+      padding: 12px 16px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .days, .months,.privacy {
+      width: 90%;
+    }
+  
+    .subscribe h1 {
+      font-size: 20px;
+    }
+  }
+  
+
+
+
+
+
+
+
+
+

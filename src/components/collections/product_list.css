@@ -1,0 +1,121 @@
+/* Main Cart Container */
+.cart-container {
+    padding: 2rem;
+    max-width: 1000px;
+    margin: auto;
+    background-color: #f9f9f9;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Header Titles */
+.cart-container h1 {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    color: #1d3557;
+}
+
+.cart-container h3 {
+    text-align: center;
+    font-size: 1.2rem;
+    color: #555;
+}
+
+/* Cart Items Wrapper */
+.cart-list {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+/* Each Cart Item */
+.cart-item {
+    display: flex;
+    background-color: #fff;
+    padding: 1rem;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+/* Image Styling */
+.cart-item-image {
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-right: 1rem;
+}
+
+/* Item Details */
+.cart-item-details {
+    flex: 1;
+    min-width: 200px;
+}
+
+.cart-item-details h2 {
+    font-size: 1.2rem;
+    color: #333;
+    margin-bottom: 0.3rem;
+}
+
+.cart-item-details p {
+    margin: 0.2rem 0;
+    color: #444;
+}
+
+/* Remove Button */
+.remove-item {
+    padding: 0.6rem 1rem;
+    background-color: #e63946;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 0.9rem;
+    transition: background-color 0.3s ease;
+}
+
+.remove-item:hover {
+    background-color: #d62828;
+}
+
+/* Total Price */
+.totalprice {
+    margin-top: 2rem;
+    text-align: right;
+    font-size: 1.5rem;
+    color: #1d3557;
+}
+
+/* Responsive Layout */
+@media (max-width: 768px) {
+    .cart-item {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 1rem;
+    }
+
+    .cart-item-image {
+        margin: 0 0 1rem 0;
+        width: 100%;
+        height: auto;
+    }
+
+    .cart-item-details {
+        width: 100%;
+    }
+
+    .remove-item {
+        width: 100%;
+        text-align: center;
+        margin-top: 1rem;
+    }
+
+    .totalprice {
+        text-align: center;
+        font-size: 1.3rem;
+    }
+}

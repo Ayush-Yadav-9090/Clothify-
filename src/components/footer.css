@@ -1,0 +1,88 @@
+footer {
+    background-color: #1c1c1eef;
+    color: #ffffff;
+    padding: 40px 20px 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 30px;
+    max-width: 1200px;
+    margin: auto;
+  }
+  
+  .company-info,
+  .footer-links,
+  .contact-info {
+    flex: 1 1 250px;
+  }
+  
+  .company-info h2,
+  .footer-links h2,
+  .contact-info h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #f2f2f2;
+  }
+  
+  .company-info p,
+  .contact-info p {
+    font-size: 14px;
+    line-height: 1.6;
+    color: #ccc;
+  }
+  
+  .footer-links ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footer-links li {
+    margin-bottom: 8px;
+  }
+  
+  .footer-links a {
+    color: #ccc;
+    transition: color 0.3s ease;
+  }
+  
+  .footer-links a:hover {
+    color: #ffffff;
+  }
+  
+  .contact-info a {
+    color: #ccc;
+    text-decoration: none;
+  }
+  
+  .contact-info a:hover {
+    color: #ffffff;
+  }
+  
+  .copyright {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 14px;
+    color: #888;
+    border-top: 1px solid #333;
+    padding-top: 15px;
+  }
+  
+  
+  @media (max-width: 768px) {
+    .footer-container {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+  
+    .company-info,
+    .footer-links,
+    .contact-info {
+      flex: 1 1 100%;
+    }
+  }
+  

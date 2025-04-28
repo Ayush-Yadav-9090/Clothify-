@@ -1,0 +1,114 @@
+/* Base Container */
+.contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3rem 1rem;
+    background-color: #f5f5f5;
+}
+
+/* Form Box */
+.box1 {
+    background-color: #fff;
+    padding: 2.5rem;
+    width: 100%;
+    max-width: 600px;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+}
+
+/* Heading */
+.h1 {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: #1d3557;
+    font-weight: 600;
+}
+
+/* Labels and Inputs */
+.box1 label {
+    display: block;
+    margin-bottom: 0.4rem;
+    font-weight: 500;
+    color: #333;
+}
+
+.box1 input[type="text"],
+.box1 input[type="email"],
+.box1 textarea {
+    width: 100%;
+    padding: 0.8rem 0.3rem;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 1rem;
+    resize: vertical;
+    transition: border-color 0.2s;
+}
+
+.box1 input:focus,
+.box1 textarea:focus {
+    outline: none;
+    border-color: #457b9d;
+    box-shadow: 0 0 0 2px rgba(69, 123, 157, 0.2);
+}
+
+/* Textarea */
+.box1 textarea {
+    min-height: 100px;
+    font-family: inherit;
+}
+
+/* Button */
+.box1 button {
+    padding: 0.75rem 1.5rem;
+    background-color: #1d3557;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+}
+
+.box1 button:hover {
+    background-color: #457b9d;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .box1 {
+        padding: 1.5rem;
+       
+    }
+
+    .h1 {
+        font-size: 1.6rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .box1 {
+        padding: 1rem;
+       
+        gap: 1rem;
+    }
+
+    .h1 {
+        font-size: 1.4rem;
+    }
+
+    .box1 input,
+    .box1 textarea {
+        font-size: 0.95rem;
+        width:max-content;
+    }
+
+    .box1 button {
+        width: 100%;
+    }
+}
+
