@@ -1,5 +1,4 @@
-import "./about.css"
-
+import '../../CSS/about.css'
 import React from 'react'
 
 export const ABOUT = () => {

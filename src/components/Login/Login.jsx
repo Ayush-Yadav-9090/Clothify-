@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import { useNavigate } from 'react-router-dom'; // Used for redirect after login
-import './collections/login.css'
+import { useNavigate } from 'react-router-dom';
+import "../../CSS/login.css"
 import { toast } from 'react-toastify';
 
 export const Login = () => {
@@ -14,8 +14,8 @@ export const Login = () => {
     navigate('/home');  // Go to the Home page
   };
 
-  
-  
+
+
   return (
     <div className="login-container">
       <h2><u>Login</u></h2>

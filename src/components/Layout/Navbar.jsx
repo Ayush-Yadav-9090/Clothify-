@@ -1,12 +1,12 @@
 import React, { useState } from 'react';
-import './navbar.css';
+import '../../CSS/navbar.css';
 import { Link } from 'react-router-dom';
-import { useCart } from '../operation/addcart';
+import { useCart } from '../../Operation/AddCart';
 
 export const Navbar = () => {
 
 
-    // This value is come from a (../operation/addcart) this file
+    // This value is come from a (../Operation/addcart) this file
     const { cartItems, search, value, setValue } = useCart();
     // Take a total numbers of items is add to a cart
     const totalItems = cartItems.reduce((total, item) => total + item.quantity, 0);

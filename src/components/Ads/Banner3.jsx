@@ -1,4 +1,4 @@
-import './banner3.css';
+import '../../CSS/banner3.css'
 import React from 'react';
 
 export const Banner3 = () => {

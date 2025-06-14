@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
-import './profile.css'; // Optional styling
+
+import "../../CSS/profile.css" // Optional styling
 
 export const Profile = () => {
 

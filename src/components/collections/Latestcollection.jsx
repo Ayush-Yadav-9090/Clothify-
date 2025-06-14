@@ -1,7 +1,7 @@
-import './latestcollection.css'; 
+import '../../CSS/latestcollection.css'
 import React, { useState } from 'react';
-import { product } from './Image_Details'; // Import the product data
-import { useCart } from '../../operation/addcart'; // Custom hook to handle cart operations
+import { product } from '../../Image_Details/Image_Details';  // Import the product data
+import { useCart } from '../../Operation/AddCart'; // Custom hook to handle cart operations
 import { NavLink } from 'react-router-dom';
 import { toast } from 'react-toastify';
 

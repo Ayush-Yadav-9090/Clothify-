@@ -1,7 +1,7 @@
-import { Navbar } from './components/Navbar';
-import { Footer } from './components/footer';
+import { Navbar } from './Components/Layout/Navbar';
+import { Footer } from './Components/Layout/footer';
 import { Outlet } from 'react-router-dom';
-import { CartProvider } from './operation/addcart';
+import { CartProvider } from './Operation/AddCart';
 import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 

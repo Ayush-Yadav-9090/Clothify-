@@ -1,4 +1,4 @@
-import './condtion.css'
+import '../../CSS/condtion.css'
 import React from 'react'
 
 export const Condition = () => {

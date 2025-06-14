@@ -1,10 +1,10 @@
 import React from 'react';
 import { useParams } from 'react-router-dom'; // To get the product ID from URL
-import { product } from './Image_Details'; // Importing product data
+import { product} from "../../Image_Details/Image_Details" // Importing product data
 import { useState, useEffect } from 'react';
-import { useCart } from '../../operation/addcart'; // Custom hook to manage cart
-import "./discribe.css"; 
-import { toast } from 'react-toastify'; 
+import { useCart } from '../../Operation/AddCart'; // Custom hook to manage cart
+import "../../CSS/discribe.css"
+import { toast } from 'react-toastify';
 
 export const Discribe = () => {
     const { id } = useParams(); // Getting product ID from route parameters

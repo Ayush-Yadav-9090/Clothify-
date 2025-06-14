@@ -1,5 +1,5 @@
 
-import { Discribe } from './Discribe';
+import { Discribe } from './Describe';
 import { Link } from 'react-router-dom';
 
 export const Product_discribtion = () => {

@@ -1,9 +1,10 @@
-import './bestseller.css'; 
+
+import '../../CSS/bestseller.css'
 import React, { useState } from 'react'; 
 import { toast } from 'react-toastify'; 
-import { useCart } from '../../operation/addcart'; 
+import { useCart } from '../../Operation/AddCart'; 
 import { NavLink } from 'react-router-dom'; 
-import { product } from './Image_Details'; // Import product data
+import { product } from '../../Image_Details/Image_Details'; // Import product data
 
 export const Bestseller = () => {
 

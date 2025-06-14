@@ -1,4 +1,5 @@
-import "./reviwes.css";
+
+import '../../CSS/reviwes.css'
 import React from 'react';
 
 export const Reviwes = () => {

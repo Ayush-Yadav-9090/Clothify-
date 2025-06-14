@@ -1,4 +1,4 @@
-import './contact.css'
+import "../../CSS/contact.css"
 import { toast } from 'react-toastify';
 import React from 'react'
 

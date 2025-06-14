@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
-import './product.css';
-import { product } from './Image_Details'; // Importing product details
-import { useCart } from '../../operation/addcart'; // Custom hook for cart operations
+import "../../CSS/product.css"
+import { product } from '../../Image_Details/Image_Details'; // Importing product details
+import { useCart } from '../../Operation/AddCart'; // Custom hook for cart operations
 import { NavLink } from 'react-router-dom'; // For navigation
 import { toast } from 'react-toastify'; // For notifications
 

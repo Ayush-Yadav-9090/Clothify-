@@ -1,4 +1,4 @@
-import './video.css'
+import "../../CSS/video.css"
 import React from 'react'
 
 export const Video = () => {

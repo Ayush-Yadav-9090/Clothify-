@@ -1,4 +1,4 @@
-import "./banner2.css"
+import '../../CSS/banner2.css'
 import React from 'react'
 // import{bin_icon} from "./Image/p_img1.png"
 

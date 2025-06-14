@@ -1,4 +1,5 @@
-import "./policypage.css";
+
+import "../../CSS/policypage.css"
 import React from 'react';
 
 

@@ -1,6 +1,6 @@
 import React from 'react';
-import { useCart } from '../../operation/addcart';
-import './product_list.css'; 
+import { useCart } from '../../Operation/AddCart';
+import '../../CSS/product_list.css'
 import { NavLink } from 'react-router-dom';
 import { toast } from 'react-toastify';
 
