@@ -4,6 +4,7 @@ import { Outlet } from 'react-router-dom';
 import { CartProvider } from './Operation/AddCart';
 import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
+import { VoiceAssistant } from './Components/AI/VoiceAssistant';
 
 
 
@@ -31,6 +32,7 @@ function App() {
         <Navbar /> 
         <Outlet />
         <Footer />
+         <VoiceAssistant />
       </CartProvider>
     </>
   );

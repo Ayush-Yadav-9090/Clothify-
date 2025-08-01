@@ -7,6 +7,7 @@ import { Reviwes } from '../Collections/Reviews';
 import { Link } from 'react-router-dom';
 import { Condition } from '../../Components/Policy/TermsAndCondtion';
 
+
 export const Home = () => {
     return (
         <>
@@ -17,6 +18,7 @@ export const Home = () => {
                 <Video />
                 <Reviwes />
                 <Condition/>
+               
             
         </>
     );

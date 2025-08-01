@@ -34,20 +34,21 @@ export const Profile = () => {
 
   return (
 
-    <div className="profile-container">
-      <div className='xyz'>
-        <img src={user.img} alt='user_image'></img>
-        <h1>{user.name}</h1>
-        <p>Email: {user.email}</p>
-      </div>
-      <h3>Order History</h3>
-      <ul>
-        {user.orders.map((order) => (
-          <li key={order.id}>
-            Order #{order.id} - {order.date} - Total: ${order.total}
-          </li>
-        ))}
-      </ul>
-    </div>
+    // <div className="profile-container">
+    //   <div className='xyz'>
+    //     <img src={user.img} alt='user_image'></img>
+    //     <h1>{user.name}</h1>
+    //     <p>Email: {user.email}</p>
+    //   </div>
+    //   <h3>Order History</h3>
+    //   <ul>
+    //     {user.orders.map((order) => (
+    //       <li key={order.id}>
+    //         Order #{order.id} - {order.date} - Total: ${order.total}
+    //       </li>
+    //     ))}
+    //   </ul>
+    // </div>
+    <p>comming soon..........</p>
   );
 };

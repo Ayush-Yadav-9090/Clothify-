@@ -1,0 +1,17 @@
+/* in style.css or a new voice.css */
+.voice-assistant {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 9999;
+}
+
+.voice-btn {
+    background-color: #6366f1;
+    color: white;
+    border: none;
+    padding: 10px 16px;
+    border-radius: 50px;
+    font-size: 16px;
+    cursor: pointer;
+}

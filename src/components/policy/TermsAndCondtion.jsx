@@ -29,7 +29,7 @@ export const Condition = () => {
       </div>
       <div class="subscribe">
           <h1>Subscribe now & get 20% off</h1>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+         
          <form action="https://api.web3forms.com/submit" method="POST" /><input type="email" placeholder='Enter your email'></input><button>SUBSCRIBE</button>
         </div>
         <div>
